@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Multimodal RAG Survey">
-    <meta name="keywords" content="multimodal rag, rag, language models, llm, mllm, retrieval-augmented generation, rag survey">
+    <meta name="description" content="CLASP: Contrastive Language-Speech Pretraining for Multilingual Multimodal Information Retrieval">
+    <meta name="keywords" content="Multimodal IR, Speech Retrieval, Contrastive Learning, multimodal retrieval">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Multimodal RAG Survey</title>
+    <title>CLASP</title>
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -32,44 +32,22 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title">Ask in Any Modality:<br> A Comprehensive Survey on Multimodal Retrieval-Augmented Generation</h1>
+                        <h1 class="title is-1 publication-title">CLASP: Contrastive Language-Speech Pretraining for Multilingual Multimodal Information Retrieval</h1>
                         <div class="is-size-5 publication-authors">
                             <span class="author-block">
-              <a href="https://aboots.github.io/">Mohammad Mahdi Abootorabi</a><sup>1</sup></span>
-                            <span class="author-block">
-              <a href="https://www.linkedin.com/in/amirhosein-zobeiri-81611826a/">Amirhosein Zobeiri</a><sup>3</sup></span>
-                            <span class="author-block">
-              <a href="https://scholar.google.com/citations?hl=en&user=qHOI1U0AAAAJ&view_op=list_works&sortby=pubdate">Mahdi Dehghani</a><sup>4</sup>,
-            </span>
-                            <span class="author-block">
-              <a href="https://moalimkh.github.io/">Mohammadali Mohammadkhani</a><sup>2</sup>,
-            </span>
-                            <span class="author-block">
-              <a href="https://www.linkedin.com/in/bardia-mohammadi/">Bardia Mohammadi</a><sup>2</sup>,
-            </span>
-                            <span class="author-block">
-              <a href="https://scholar.google.com/citations?user=MMUouOIAAAAJ&hl=en">Omid Ghahroodi</a><sup>1</sup>,
-              </span>
-                            <span class="author-block">
-                <a href="https://sharif.edu/~soleymani/">Mahdieh Soleymani Baghshah</a><sup>2</sup>,
-                </span>
+              <a href="https://aboots.github.io/">Mohammad Mahdi Abootorabi</a><sup>1</sup> and </span>
                             <span class="author-block">
                   <a href="https://www.ocf.berkeley.edu/~asgari/">Ehsaneddin Asgari</a><sup>1</sup>
                   </span>
                         </div>
                         <div class="is-size-5 publication-authors">
-                            <span class="author-block"><sup>1</sup>Qatar Computing Research Institute,</span>
-                            <span class="author-block"><sup>2</sup>Sharif University of Technology,</span>
-                            <br>
-                            <span class="author-block"><sup>3</sup>University of Tehran,</span>
-                            <span class="author-block"><sup>4</sup>K.N. Toosi University of Technology</span>
+                            <span class="author-block"><sup>1</sup>Qatar Computing Research Institute</span>
                         </div>
 
                         <div class="column has-text-centered">
                             <div class="publication-links">
-                                <!-- PDF Link. -->
                                 <span class="link-block">
-                <a href="https://arxiv.org/abs/2502.08826"
+                <a href="https://arxiv.org/abs/2412.13071"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -77,14 +55,52 @@
                                 <span>arXiv</span>
                                 </a>
                                 </span>
+                                <span class="link-block">
+                                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-88717-8_2"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                      <span class="icon">
+                                        <i class="fa fa-clipboard"></i>
+                                </span>
+                                <span>Springer Nature</span>
+                                </a>
+
+
+                                <span class="link-block">
+                                    <a href="https://dl.acm.org/doi/10.1007/978-3-031-88717-8_2"
+                                       class="external-link button is-normal is-rounded is-dark">
+                                      <span class="icon">
+                                        <i class="fa fa-clipboard"></i>
+                                </span>
+                                <span>ACM Digital Library</span>
+                                </a>
+                                <br>
+                                <!-- Dataset Link. -->
+                                <span class="link-block">
+                <a href="https://huggingface.co/llm-lab/CLASP"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <span style="font-size: 24px;">🤗</span>
+                                </span>
+                                <span>Models</span>
+                                </a>
+                                <!-- Dataset Link. -->
+                                <span class="link-block">
+                <a href="https://huggingface.co/datasets/llm-lab/SpeechBrown"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                                <span>Speech Brown Dataset</span>
+                                </a>
+                                </span>
                                 <!-- Video Link. -->
                                 <span class="link-block">
-                <a href="https://github.com/llm-lab-org/Multimodal-RAG-Survey"
+                <a href="https://github.com/language-modeling-lab/CLASP"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                                <span>Repository</span>
+                                <span>Code</span>
                                 </a>
                                 </span>
                             </div>
@@ -94,18 +110,29 @@
             </div>
         </div>
     </section>
+
     <section class="hero teaser">
         <div class="container is-max-desktop">
             <div class="hero-body">
                 <h2 class="subtitle has-text-centered">
-                    <span class="dnerf">Multimodal RAG</span> extends traditional Retrieval-Augmented Generation (RAG) frameworks by incorporating diverse data types, such as text, images, audio, and video, from external knowledge sources. This approach
-                    aims to address AI limitations like hallucinations and outdated knowledge through the dynamic integration of this retrieved information, thereby improving the factual grounding, accuracy, and reasoning capabilities of the generated
-                    outputs.
+                    <span class="dnerf" style="color: red">CLASP</span> is a novel lightweight multilingual multimodal representation model designed for audio-text retrieval. It is capable of generating rich multilingual semantic embeddings for sentence-level
+                    audio that can be used in different text-speech tasks.
                 </h2>
-                <img src="static/images/MMRAG-pipeline.png" alt="BUFFET teaser.">
+                <figure class="has-text-centered mt-5">
+                    <img src="static/images/CLASP_panel.png" alt="Overview of the two proposed strategies for the fusion encoder architecture.">
+                    <figcaption class="mt-2">CLASP training and evaluation pipeline.</figcaption>
+                </figure>
+                <hr>
+                <!-- Added figure with image and caption -->
+                <figure class="has-text-centered mt-5">
+                    <img src="static/images/CLASP_core_endoder.png" alt="Overview of the two proposed strategies for the fusion encoder architecture.">
+                    <figcaption class="mt-2">Overview of the two proposed strategies for the fusion encoder architecture.</figcaption>
+                </figure>
             </div>
         </div>
     </section>
+
+
     <section class="section">
         <div class="container is-max-desktop">
             <!-- Abstract. -->
@@ -114,12 +141,11 @@
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
-                            Large Language Models (LLMs) struggle with hallucinations and outdated knowledge due to their reliance on static training data. Retrieval-Augmented Generation (RAG) mitigates these issues by integrating external dynamic information enhancing factual and
-                            updated grounding. Recent advances in multimodal learning have led to the development of Multimodal RAG, incorporating multiple modalities such as text, images, audio, and video to enhance the generated outputs. However, cross-modal
-                            alignment and reasoning introduce unique challenges to Multimodal RAG, distinguishing it from traditional unimodal RAG.
-                            <br> <br> This survey offers a structured and comprehensive analysis of Multimodal RAG systems, covering datasets, metrics, benchmarks, evaluation, methodologies, and innovations in retrieval, fusion, augmentation, and generation.
-                            We precisely review training strategies, robustness enhancements, and loss functions, while also exploring the diverse Multimodal RAG scenarios. Furthermore, we discuss open challenges and future research directions to support
-                            advancements in this evolving field. This survey lays the foundation for developing more capable and reliable AI systems that effectively leverage multimodal dynamic external knowledge bases.
+                            This study introduces CLASP (Contrastive Language-Speech Pretraining), a multilingual, multimodal representation tailored for audio-text information retrieval. CLASP leverages the synergy between spoken content and textual data. During training, we utilize
+                            our newly introduced speech-text dataset, which encompasses 15 diverse categories ranging from fiction to religion. CLASP's audio component integrates audio spectrograms with a pre-trained self-supervised speech model, while
+                            its language encoding counterpart employs a sentence encoder pre-trained on over 100 languages. This unified lightweight model bridges the gap between various modalities and languages, enhancing its effectiveness in handling
+                            and retrieving multilingual and multimodal data. Our evaluations across multiple languages demonstrate that CLASP establishes new benchmarks in HITS@1, MRR, and meanR metrics, outperforming traditional ASR-based retrieval methods
+                            that rely on transcribing speech into text for subsequent text retrieval, especially in specific scenarios.
                         </p>
                     </div>
                 </div>
@@ -127,20 +153,37 @@
             <!--/ Abstract. -->
     </section>
 
-    <section class="hero teaser">
-        <div class="container is-max-desktop">
-            <div class="hero-body">
-                <h2 class="title is-3">Taxonomy of Recent Advances and Enhancements</h2>
-                <img src="static/images/taxonomy.jpg" alt="BUFFET teaser.">
-            </div>
-        </div>
-    </section>
 
-    <section class="hero teaser">
+
+    <section class="section">
         <div class="container is-max-desktop">
-            <div class="hero-body">
-                <h2 class="title is-3">Taxonomy of Application Domains</h2>
-                <img src="static/images/application.jpg" alt="BUFFET teaser.">
+            <!-- Centering columns -->
+            <div class="columns is-centered">
+                <div class="column is-full-width">
+                    <h2 class="title is-3">Summary</h2>
+                    <div class="content has-text-justified">
+                        <ul>
+                            <li>
+                                We introduce CLASP (Contrastive Language-Speech Pretraining), a novel lightweight multilingual, multimodal representation designed for audio-text retrieval.
+                            </li>
+                            <li>
+                                We introduce a diverse paired speech-text dataset (Speech Brown) in 15 categories, encompassing a wide range of topics from fiction to religion.
+                            </li>
+                            <li>
+                                We show that the combination of audio spectrograms with a pre-trained self-supervised speech model improves audio encoding in retrieval applications.
+                            </li>
+                            <li>
+                                Evaluations in multiple languages demonstrate that CLASP sets new benchmarks in HITS@1, Mean Reciprocal Rank (MRR), and Mean Rank (meanR) metrics.
+                            </li>
+                            <li>
+                                CLASP Leverages audio spectrograms in addition to self-supervised speech encoding in a contrastive learning framework to enhance semantic representation.
+                            </li>
+                            <li>
+                                CLASP is Simpler, faster, and more size-efficient than ASR-based retrieval pipelines.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -150,41 +193,23 @@
             <!-- Centering columns -->
             <div class="columns is-centered">
                 <div class="column is-full-width">
-                    <h2 class="title is-3">Process and Innovations in Multimodal RAG</h2>
+                    <h2 class="title is-3">Speech Brown Dataset</h2>
+
+                    <!-- Add figure with image and caption here -->
+                    <figure class="has-text-centered mb-5">
+                        <img src="static/images/CLASP_data.png" alt="Speech Brown dataset synthesis pipeline" style="max-width: 100%;">
+                        <figcaption class="mt-2">Speech Brown dataset synthesis pipeline.</figcaption>
+                    </figure>
+
                     <div class="content has-text-justified">
-                        <p>
-                            The typical Multimodal RAG pipeline involves several key stages, alongside crucial innovations in training and robustness, to effectively integrate diverse data types for enhanced generation:
-                        </p>
-                        <ol>
-                            <li>
-                                <b>Multimodal Query and Corpus Encoding:</b> User queries and documents from a multimodal corpus (containing text, images, etc.) are processed by modality-specific encoders. These map the varied inputs into a shared semantic
-                                space, enabling cross-modal comparison and alignment.
-                            </li>
-                            <li>
-                                <b>Retrieval Strategy:</b> A retrieval model identifies relevant documents from the encoded corpus based on similarity to the query. This stage uses efficient search (like MIPS), modality-specific strategies (text-centric,
-                                vision-centric, video-centric, document layout-aware), and often re-ranking or selection to prioritize the best candidates.
-                            </li>
-                            <li>
-                                <b>Fusion Mechanisms:</b> The retrieved information, spanning multiple modalities, is effectively combined. Fusion mechanisms align and integrate these diverse data types using techniques like score fusion, attention-based
-                                weighting of cross-modal interactions, or projecting inputs into unified representations.
-                            </li>
-                            <li>
-                                <b>Augmentation Techniques:</b> Before generation, the retrieved context is refined. This can involve context enrichment (adding related info), adaptive retrieval (adjusting based on query complexity or feedback), or iterative
-                                retrieval (refining results over multiple steps).
-                            </li>
-                            <li>
-                                <b>Generation:</b> Finally, a Multimodal Large Language Model (MLLM) generates a response using the original query and the processed, retrieved multimodal context. Innovations include In-Context Learning with retrieved
-                                examples, structured reasoning (like Chain-of-Thought), instruction tuning for specific tasks, and ensuring source attribution.
-                            </li>
-                            <li>
-                                <b>Training Strategies:</b> Training involves multistage processes, often starting with pretraining on large paired datasets to learn cross-modal relationships (e.g., using contrastive loss like InfoNCE or alignment losses)
-                                and followed by fine-tuning on specific tasks using objectives like cross-entropy for generation or specialized losses for alignment and disentanglement.
-                            </li>
-                            <li>
-                                <b>Robustness and Noise Management:</b> Techniques are employed to handle challenges like noisy retrieval inputs and modality-specific biases. Methods include injecting irrelevant results or noise during training, using
-                                knowledge distillation, employing adaptive knowledge selection strategies, or applying regularization techniques (like Query Dropout) to enhance model resilience and focus.
-                            </li>
-                        </ol>
+                        <ul>
+                            <li> The Speech Brown Dataset is a comprehensive speech-text paired corpus spanning 15 diverse categories including science fiction, religion, romance, and news, providing rich contextual variety for speech processing research.</li>
+                            <li> Comprising over 55,000 sentence-level samples synthesized using the NVIDIA Tacotron 2 text-to-speech model, this dataset offers high-quality audio-text pairs for multimodal learning applications. </li>
+                            <li> With approximately 30 GB of data, the dataset features an average of 19 tokens and 96.72 characters per sample, making it ideal for both short-form speech recognition and text-to-speech development. </li>
+                            <li> Each sample is meticulously categorized across domains like adventure, belles_lettres, editorial, government, hobbies, humor, learned, and more, enabling domain-specific speech processing research. </li>
+                            <li> The dataset's balanced representation across multiple genres provides researchers with a robust foundation for developing and evaluating speech-text retrieval systems and multimodal language models. </li>
+                            <li> Built upon the renowned Brown corpus, this speech-enhanced version extends its utility to modern speech processing applications while maintaining the linguistic diversity of the original collection. </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -197,34 +222,33 @@
             <!-- Centering columns -->
             <div class="columns is-centered">
                 <div class="column is-full-width">
-                    <h2 class="title is-3">Open Problems and Future Directions</h2>
+                    <h2 class="title is-3">Results and Analysis</h2>
+                    <figure class="has-text-centered mb-5">
+                        <img src="static/images/clasp_table.png" alt="Speech Brown dataset synthesis pipeline" style="max-width: 100%;">
+                    </figure>
+
                     <div class="content has-text-justified">
-                        <p>
-                            Key challenges and future research opportunities in Multimodal RAG include:
-                        </p>
                         <ul>
-                            <li>
-                                <b>Improving Generalization, Explainability, and Robustness:</b> Addressing domain adaptation issues, modality biases (like over-reliance on text), the lack of precise source attribution (especially for non-textual data),
-                                and vulnerability to adversarial inputs or low-quality sources.
+                            <li>CLASP outperforms Wav2Vec2 and nearly matches HuBERT in retrieval metrics, while reducing model size by approximately 50% and improving inference speed by around 10%, demonstrating superior efficiency without sacrificing performance.</li>
+                            <li>With significantly lower meanR values (7.71) compared to HuBERT (17.84) and Wav2Vec2 (38.3), CLASP demonstrates better retrieval ranking and enhanced handling of outliers, leading to more accurate and reliable search results.</li>
+                            <li>Despite being trained on only ~130 hours of data—far less than HuBERT's 60,000+ hours—CLASP achieves comparable performance with less than 1.5% drop in HITS@1 and only ~0.8% reduction in MRR, showcasing remarkable data efficiency.</li>
+                            <li>The integration of spectrogram analysis with self-supervised speech encoding boosts HITS@1 by approximately 3%, highlighting the benefit of abstract feature extraction from spectrogram waveforms for semantic understanding.</li>
+                            <li>Our experiments reveal that the combination of LaBSE text encoder with HuBERT speech embeddings using the concatenation fusion strategy outperforms alternative architectures, achieving the highest retrieval scores across evaluation
+                                metrics.
                             </li>
-                            <li>
-                                <b>Enhancing Reasoning, Alignment, and Retrieval:</b> Developing better compositional reasoning across modalities, improving entity-aware retrieval, mitigating retrieval biases (e.g., position sensitivity, redundancy),
-                                exploring knowledge graphs, and creating truly unified embedding spaces for direct multimodal search.
+                            <li>CLASP demonstrates exceptional multilingual capability with impressive scores across diverse languages.
                             </li>
-                            <li>
-                                <b>Developing Agent-Based and Self-Guided Systems:</b> Moving towards interactive, agentic systems that use feedback (like reinforcement learning or human alignment) to self-assess retrieval needs, evaluate relevance, dynamically
-                                choose modalities, and refine outputs iteratively, achieving robust "any-to-any" modality support.
-                            </li>
-                            <li>
-                                <b>Integrating with Real-World Data and Embodied AI:</b> Incorporating diverse real-world sensor data alongside traditional modalities to enhance situational awareness, aligning with trends towards embodied AI for applications
-                                in robotics, navigation, and physics-informed reasoning.
-                            </li>
-                            <li>
-                                <b>Addressing Long-Context, Efficiency, Scalability, and Personalization:</b> Overcoming computational bottlenecks in processing long videos or multi-page documents, optimizing the speed-accuracy trade-off for efficiency
-                                and scalability (especially for edge devices), exploring user-specific personalization while ensuring privacy, and creating better datasets for evaluating complex reasoning and robustness.
+                            <li>Our contrastive learning approach enables CLASP to capture nuanced semantic relationships by learning from both positive matches and negative samples, resulting in more robust and discriminative representations for audio-text
+                                retrieval.
                             </li>
                         </ul>
                     </div>
+
+                    <!-- Add t-SNE visualization figure -->
+                    <figure class="has-text-centered mt-5">
+                        <img src="static/images/tsne_plot.png" alt="t-SNE visualization of sentence embeddings" style="max-width: 100%;">
+                        <figcaption class="mt-2">t-SNE visualization of sentence embeddings across modalities, demonstrating effective projection into a shared representation space for the test dataset.</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -235,15 +259,22 @@
     <section class="section" id="BibTeX">
         <div class="container is-max-desktop content">
             <h2 class="title">BibTeX</h2>
-            <pre><code>@misc{abootorabi2025askmodalitycomprehensivesurvey,
-                title={Ask in Any Modality: A Comprehensive Survey on Multimodal Retrieval-Augmented Generation}, 
-                author={Mohammad Mahdi Abootorabi and Amirhosein Zobeiri and Mahdi Dehghani and Mohammadali Mohammadkhani and Bardia Mohammadi and Omid Ghahroodi and Mahdieh Soleymani Baghshah and Ehsaneddin Asgari},
-                year={2025},
-                eprint={2502.08826},
-                archivePrefix={arXiv},
-                primaryClass={cs.CL},
-                url={https://arxiv.org/abs/2502.08826}, 
-        }</code></pre>
+            <pre><code>@inproceedings{10.1007/978-3-031-88717-8_2,
+                author = {Abootorabi, Mohammad Mahdi and Asgari, Ehsaneddin},
+                title = {CLASP: Contrastive Language-Speech Pretraining for&nbsp;Multilingual Multimodal Information Retrieval},
+                year = {2025},
+                isbn = {978-3-031-88716-1},
+                publisher = {Springer-Verlag},
+                address = {Berlin, Heidelberg},
+                url = {https://doi.org/10.1007/978-3-031-88717-8_2},
+                doi = {10.1007/978-3-031-88717-8_2},
+                abstract = {This study introduces CLASP (Contrastive Language-Speech Pretraining), a multilingual, multimodal representation tailored for audio-text information retrieval. CLASP leverages the synergy between spoken content and textual data. During training, we utilize our newly introduced speech-text dataset, which encompasses 15 diverse categories ranging from fiction to religion. CLASP’s audio component integrates audio spectrograms with a pre-trained self-supervised speech model, while its language encoding counterpart employs a sentence encoder pre-trained on over 100 languages. This unified lightweight model bridges the gap between various modalities and languages, enhancing its effectiveness in handling and retrieving multilingual and multimodal data. Our evaluations across multiple languages demonstrate that CLASP establishes new benchmarks in HITS@1, MRR, and meanR metrics, outperforming traditional ASR-based retrieval methods that rely on transcribing speech into text for subsequent text retrieval, especially in specific scenarios.},
+                booktitle = {Advances in Information Retrieval: 47th European Conference on Information Retrieval, ECIR 2025, Lucca, Italy, April 6–10, 2025, Proceedings, Part IV},
+                pages = {10–20},
+                numpages = {11},
+                keywords = {Multimodal IR, Speech Retrieval, Contrastive Learning},
+                location = {Lucca, Italy}
+                }</code></pre>
         </div>
     </section>
 
