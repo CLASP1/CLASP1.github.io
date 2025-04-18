@@ -19,7 +19,7 @@ If you find this work useful for your work please cite:
                 numpages = {11},
                 keywords = {Multimodal IR, Speech Retrieval, Contrastive Learning},
                 location = {Lucca, Italy}
-            }
+}
 ```
 
 # Website License
