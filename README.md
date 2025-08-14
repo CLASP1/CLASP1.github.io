@@ -1,4 +1,4 @@
-# Multimodal RAG Survey
+# CLASP
 
 This is the repository that contains source code for the [CLASP website](https://clasp1.github.io/).
 
